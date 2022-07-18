@@ -32,19 +32,6 @@ function DisplayWord(props) {
         }
 
         return li
-
-        // for(let i=0; i<word.length; i++) {
-        //     if(vowels.includes(word[i])) {
-        //         elements.push(<span className="vowel" key={count}>{word[i]}</span>)
-        //         count++
-        //     } else {
-        //         elements.push(word[i])
-        //     }
-        // }
-        // if(elements.length > 0) {
-        //     elements.push(`: ${count} vowels`)
-        // }
-        // return elements
     }
 
     return (
